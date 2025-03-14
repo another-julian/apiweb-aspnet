@@ -9,10 +9,19 @@ namespace APIWeb.Controllers;
 
 public class PizzaController : ControllerBase
 {
-    public PizzaController() { }
+    private readonly ILogger<PizzaController> _logger;
+    public PizzaController(ILogger<PizzaController> logger)
+    {
+        _logger = logger;
+    }
 
     [HttpGet]
-    public ActionResult<List<Pizza>> GetAll() => PizzaService.GetAll();
+    public ActionResult<List<Pizza>> GetAll()
+    {
+        _logger.LogInformation("GET request on Pizza");
+        return PizzaService.GetAll();
+
+    }
 
     [HttpGet("{id}")]
     public ActionResult<Pizza> Get(int id)
