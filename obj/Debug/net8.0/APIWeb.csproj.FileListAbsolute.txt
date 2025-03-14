@@ -33,3 +33,4 @@ A:\Desarrollo github\ASP net\APIWeb\obj\Debug\net8.0\refint\APIWeb.dll
 A:\Desarrollo github\ASP net\APIWeb\obj\Debug\net8.0\APIWeb.pdb
 A:\Desarrollo github\ASP net\APIWeb\obj\Debug\net8.0\APIWeb.genruntimeconfig.cache
 A:\Desarrollo github\ASP net\APIWeb\obj\Debug\net8.0\ref\APIWeb.dll
+A:\Desarrollo github\ASP net\APIWeb\obj\Debug\net8.0\APIWeb.sourcelink.json
