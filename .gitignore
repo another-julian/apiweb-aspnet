@@ -1,0 +1,57 @@
+# Build files
+bin/
+obj/
+out/
+
+# NuGet dependencies
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# User-specific and configuration files
+*.user
+*.suo
+*.userosscache
+*.sln.ide
+.vs/
+.vscode/
+.idea/
+
+# Logs and debugging
+*.log
+logs/
+*.tlog
+*.cache
+*.pdb
+
+# Visual Studio specific files
+.vs/
+*.csproj.user
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.dbmdl
+*.opendb
+
+# Rider (JetBrains) project files
+.idea/
+*.sln.iml
+
+# Debugging and environment configuration
+.env
+.env.development
+.env.production
+appsettings.Development.json
+appsettings.Local.json
+
+# Temporary files
+wwwroot/node_modules/
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Docker and containers
+.dockerignore
+docker-compose.override.yml
