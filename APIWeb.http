@@ -1,9 +1,13 @@
 @APIWeb_HostAddress = https://localhost:7048
 
-GET {{APIWeb_HostAddress}}/pizza/0
-Accept: application/json
+POST {{APIWeb_HostAddress}}/pizza/
+Content-Type: application/json
 
-GET {{APIWeb_HostAddress}}/weatherforecast/
-Accept: application/json
+{
+    "name": "Hawaii",
+    "content" : "cheese, pineapple, ham",
+    "isGlutenFree": false,
+    "price": 12.4
+}
 
 ###
